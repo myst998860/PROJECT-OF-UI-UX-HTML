@@ -1,3 +1,5 @@
+
+
 .col-lg-4{
     position: relative;
     top: 11px;
@@ -32,20 +34,31 @@ a:hover{
 
     background-color:#131415;
 }
-.contentimg{
-    margin-top: 60px;
-    
-}
+
+
 .sear{
+   background-color:  #666c6c;
     float: right;
-    margin-top: 18px;
+    margin-top: 9px;
+    width: 106px;
+    height: 50px;
+}
+.sear:hover{
+    background-color: #131415;
+}
+
+
+.neptim{
+    position: absolute;
+    top: 0px;
+    left: 181px;
 }
 
 .cafetoonfeatures{
         position: relative;
         margin-top: 60px;
-        border: 1px solid aqua;
-        background-color: aqua;
+        border: 1px solid#f9ffff;
+        background-color: #f9ffff;
         height: 850px;
         width: 100%;
         margin-top: 60px;
@@ -71,6 +84,7 @@ a:hover{
     height: 850px;
     width: 426px;
     margin-left: 434px;
+    margin-top: -1px;
 
 }
 .white{
@@ -115,8 +129,8 @@ a:hover{
 }
 .smallwhite{
     position: absolute;
-    border: 1px solid white;
-    background-color: white;
+    border: 1px solid rgb(236, 245, 245);
+    background-color: rgb(236, 245, 245);
     height: 85px;
     width: 404px;
     left: 29px;
@@ -125,16 +139,19 @@ a:hover{
 
 .contactform{
     position: relative;
-    border: 1px solid aqua;
-    background-color: aqua;
+    border: 1px solid#f9ffff;
+    background-color: #f9ffff;
     height: 283px;
-    width: 100%;
     margin-top: 60px;
+    align-items: center;
 }
 .con{
     position: absolute;
     top:60px;
     left: 552px;
+}
+.sub{
+    margin-left: 65px;
 }
 .button{
     position: absolute;
@@ -143,10 +160,9 @@ a:hover{
 }
 .Footer{
     position: relative;
-    border: 1px solid aqua;
-    background-color: aqua;
+    border: 1px solid#f9ffff;
+    background-color: #f9ffff;
     height: 283px;
-    width: 100%;
     margin-top: 60px;
 }
 .footblac{
@@ -202,3 +218,23 @@ a:hover{
     left: 488px;
     font-size: 34px;
 }
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+  margin-top: 30px;
+}
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+  
+}
+
